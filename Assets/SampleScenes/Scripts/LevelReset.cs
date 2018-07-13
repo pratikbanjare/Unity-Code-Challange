@@ -10,7 +10,7 @@ public class LevelReset :MonoBehaviour , IPointerClickHandler
         // reload the scene
         //SceneManager.LoadScene(SceneManager.GetSceneAt(0).name);
         SceneManager.LoadScene(0);
-        DecreaseHealth.health = 50;
+        DecreaseHealth.health = 10;
     }
 
 

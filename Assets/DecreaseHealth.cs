@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityStandardAssets.Vehicles.Car;
+using UnityEngine.SceneManagement;
 public class DecreaseHealth : MonoBehaviour {
 
     public static int health = 1;
@@ -56,10 +57,13 @@ public class DecreaseHealth : MonoBehaviour {
     {
         CarUserControl.StopCar = true;
         //GameObject.FindGameObjectWithTag("Player").GetComponent<CarUserControl>().enabled = false;
-        GameObject.FindGameObjectWithTag("ReloadSceneButton").GetComponent<Image>().enabled = true;
-            GameObject.FindGameObjectWithTag("ReloadSceneText").GetComponent<Text>().enabled = true;
-        GameObject.FindGameObjectWithTag("EyePointer").GetComponent<GvrReticlePointer>().enabled = true;
+        //GameObject.FindGameObjectWithTag("ReloadSceneButton").GetComponent<Image>().enabled = true;
+        //GameObject.FindGameObjectWithTag("ReloadSceneText").GetComponent<Text>().enabled = true;
+        //GameObject.FindGameObjectWithTag("EyePointer").GetComponent<GvrReticlePointer>().enabled = true;
+        GameObject.FindGameObjectWithTag("ReloadTimer").GetComponent<StartCountDown>().StartBackCount();
 
     }
+
+    
     
 }
