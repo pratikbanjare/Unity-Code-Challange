@@ -8,7 +8,9 @@ public class LevelReset :MonoBehaviour , IPointerClickHandler
     public void OnPointerClick(PointerEventData data)
     {
         // reload the scene
-        SceneManager.LoadScene(SceneManager.GetSceneAt(0).name);
+        //SceneManager.LoadScene(SceneManager.GetSceneAt(0).name);
+        SceneManager.LoadScene(0);
+        DecreaseHealth.health = 50;
     }
 
 

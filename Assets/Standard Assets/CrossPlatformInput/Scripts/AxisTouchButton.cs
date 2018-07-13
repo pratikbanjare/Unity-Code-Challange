@@ -18,14 +18,17 @@ namespace UnityStandardAssets.CrossPlatformInput
 
 		void OnEnable()
 		{
+            
 			if (!CrossPlatformInputManager.AxisExists(axisName))
 			{
+                
 				// if the axis doesnt exist create a new one in cross platform input
 				m_Axis = new CrossPlatformInputManager.VirtualAxis(axisName);
 				CrossPlatformInputManager.RegisterVirtualAxis(m_Axis);
 			}
 			else
 			{
+                
 				m_Axis = CrossPlatformInputManager.VirtualAxisReference(axisName);
 			}
 			FindPairedButton();
@@ -33,8 +36,9 @@ namespace UnityStandardAssets.CrossPlatformInput
 
 		void FindPairedButton()
 		{
-			// find the other button witch which this button should be paired
-			// (it should have the same axisName)
+            // find the other button witch which this button should be paired
+            // (it should have the same axisName)
+            
 			var otherAxisButtons = FindObjectsOfType(typeof(AxisTouchButton)) as AxisTouchButton[];
 
 			if (otherAxisButtons != null)
@@ -51,24 +55,28 @@ namespace UnityStandardAssets.CrossPlatformInput
 
 		void OnDisable()
 		{
-			// The object is disabled so remove it from the cross platform input system
+            // The object is disabled so remove it from the cross platform input system
+            
 			m_Axis.Remove();
 		}
 
 
 		public void OnPointerDown(PointerEventData data)
 		{
+            
 			if (m_PairedWith == null)
 			{
 				FindPairedButton();
 			}
-			// update the axis and record that the button has been pressed this frame
+            // update the axis and record that the button has been pressed this frame
+            Debug.Log("Updateing something"+ m_Axis.ToString());
 			m_Axis.Update(Mathf.MoveTowards(m_Axis.GetValue, axisValue, responseSpeed * Time.deltaTime));
 		}
 
 
 		public void OnPointerUp(PointerEventData data)
 		{
+         
 			m_Axis.Update(Mathf.MoveTowards(m_Axis.GetValue, 0, responseSpeed * Time.deltaTime));
 		}
 	}

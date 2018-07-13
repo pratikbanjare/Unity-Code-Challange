@@ -9,7 +9,7 @@ namespace UnityStandardAssets.Vehicles.Car
     {
         private CarController m_Car; // the car controller we want to use
 
-
+        public static bool StopCar = false;
         private void Awake()
         {
             // get the car controller
@@ -26,7 +26,10 @@ namespace UnityStandardAssets.Vehicles.Car
             float handbrake = CrossPlatformInputManager.GetAxis("Jump");
             m_Car.Move(h, v, v, handbrake);
 #else
-            m_Car.Move(h, v, v, 0f);
+            if (!StopCar)
+                m_Car.Move(h, 0.4f, 0.4f, 0f);
+            else
+                m_Car.Move(0, 0, 0, 0);
 #endif
         }
     }
