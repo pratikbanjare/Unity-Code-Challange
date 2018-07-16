@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Compass.cs" />
      <Compile Include="Assets\DecreaseHealth.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Scripts\DemoInputManager.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Scripts\DemoSceneManager.cs" />
