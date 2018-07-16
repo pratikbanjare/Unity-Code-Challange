@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-E:/Unity Project/Unity Code Challange/product_005.apk
+E:/Unity Project/Unity Code Challange/product_006.apk
 SceneListBegin?
 Assets/SampleScenes/Scenes/Car 1.unity
 SceneListEnd?
@@ -26,6 +26,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 7c4009185d1e3bcf3491adeea097f83e Assembly-CSharp-firstpass.dll:UnityStandardAssets.Characters.FirstPerson.FirstPersonController
 430c1729d7a445aa5df470ced463fca9 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Effects.ExplosionPhysicsForce
 c35752b81d25e001fee445da226f3c4e Assembly-CSharp-firstpass.dll:UnityStandardAssets.Vehicles.Car.Suspension
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Compass
 0df26d7642d4095bdac77a78b25e44a4 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Vehicles.Car.BrakeLight
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:.EventSystemChecker
 228303069e44eb1f7f68e3c0519e6057 Assembly-CSharp.dll:.GvrVideoPlayerTexture
@@ -142,6 +143,7 @@ db782f22d720a4e9886ccd9125d81b92 Assembly-CSharp-firstpass.dll:UnityStandardAsse
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 36cd6f8d7e08dc2582ba6f6ba39df992 Assembly-CSharp.dll:GoogleVR.VideoDemo.SwitchVideos
 846f17d2b1fd8b405b1f43993d8e697d Assembly-CSharp.dll:.GvrKeyboard
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.StartCountDown
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.Vehicles.Car.CarUserControl
 5adc88bf7d1c618314bc1a0f0b3d6c47 Assembly-CSharp.dll:.GvrAudioSoundfield
 bb0ad8cb9cb04ab265277fa3ffe5f4ff Assembly-CSharp.dll:GoogleVR.VideoDemo.ToggleAction
@@ -168,6 +170,7 @@ a2efb0db652b8114d1ae7dd9a600d626 Assembly-CSharp-firstpass.dll:UnityStandardAsse
 8add7944724b2305a45c386f15eacb7e Assembly-CSharp-firstpass.dll:UnityStandardAssets.Vehicles.Aeroplane.AeroplaneAiControl
 fe76270bd84ec3b6f2f6f92c69cf69da Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.AxisTouchButton
 307d9f491fea791345eb6aa66e84c179 Assembly-CSharp-firstpass.dll:UnityStandardAssets._2D.CameraFollow
+ca92e92ad30341e091277f61e336aa24 Assembly-CSharp.dll:.Timer
 96e7294f11e4ae1fe77dd4bcd658b56d Assembly-CSharp-firstpass.dll:UnityStandardAssets.Cameras.LookatTarget
 03f12694d8815c5c1846b514244afecc Assembly-CSharp.dll:.GvrAllEventsTrigger
 a7d3c6c6948d99dd4116e659ddcf5ac4 Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.ButtonHandler
@@ -288,4 +291,3 @@ b2945430dfd6bbdb5d77043b47bf85e7 Assembly-CSharp.dll:.GvrControllerReticleVisual
 d885ad79a6ef5bfe2ce10637aac0b8a0 Assembly-CSharp.dll:GoogleVR.VideoDemo.AutoPlayVideo
 a412f64ff4e4667098f82b7fa0bf56e2 Assembly-CSharp-firstpass.dll:UnityStandardAssets._2D.PlatformerCharacter2D
 0f3d4bb7128a287827d041c696039525 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.StartCountDown

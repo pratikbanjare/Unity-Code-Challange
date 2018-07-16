@@ -1,0 +1,18 @@
+##################### Team: Juggernuat ###############################################
+|																					 |
+|Setup:																				 |
+|Install the apk file in your android phone. Put your phone in VR cardboard headset. |
+|Start the application.																 |
+|																					 |
+|Navigation:																		 |
+|Tilt your head to left or right to steer the car. The car will move automatically.  |
+| 																					 |
+|Health:																			 |
+|You are provided with initial health of 10 points. As soon as your health reaches 0 |
+|car will stop and after 5 seconds of wait, you will be taken back to start point and| 
+|process will repeat.																 |
+|																					 |
+|Obstacles:																			 |
+|There are obstacles in the track colliding with which decreases your health. 		 |
+|colliding with each obstacles decreases your health by 1 point.					 |
+######################################################################################
